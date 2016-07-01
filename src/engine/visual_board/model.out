@@ -1,0 +1,15 @@
+b = getEmptyBoard ();
+setPieceAtPosition_Board (&b, PIECE_T_TIGER, 0, 0);
+setPieceAtPosition_Board (&b, PIECE_T_SHIKAAR, 0, 1);
+setPieceAtPosition_Board (&b, PIECE_T_SHIKAAR, 0, 2);
+setPieceAtPosition_Board (&b, PIECE_T_SHIKAAR, 0, 3);
+setPieceAtPosition_Board (&b, PIECE_T_SHIKAAR, 0, 4);
+setPieceAtPosition_Board (&b, PIECE_T_SHIKAAR, 1, 2);
+setPieceAtPosition_Board (&b, PIECE_T_SHIKAAR, 1, 3);
+setPieceAtPosition_Board (&b, PIECE_T_SHIKAAR, 2, 4);
+setPieceAtPosition_Board (&b, PIECE_T_TIGER, 3, 0);
+setPieceAtPosition_Board (&b, PIECE_T_TIGER, 3, 3);
+setPieceAtPosition_Board (&b, PIECE_T_SHIKAAR, 3, 4);
+setPieceAtPosition_Board (&b, PIECE_T_TIGER, 4, 1);
+setNumberOfShikaarKilled_Board (&b, 0);
+setNumberOfShikaarLeft_Board (&b, 12);

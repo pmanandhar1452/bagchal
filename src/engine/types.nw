@@ -1,0 +1,44 @@
+<<*>>=
+  <<types.h>>
+@
+
+\texttt{types.h} defines the simple data-types used in the
+bagchal engine.
+
+<<types.h>>=
+
+#ifndef bagchal_engine_types_h
+#define bagchal_engine_types_h
+
+<<typedefs>>
+
+#endif
+
+@
+
+The [[i64_t]] is a 64 bit integer. Since the actual base type is different
+for different compilers. We use a typedef for a 64 bit integer.
+
+<<typedefs>>=
+
+typedef unsigned long long i64_t;
+
+@
+
+The [[i2_t]] is at least 2 bits long, but could be longer.
+The [[i1_t]] is at least 1 bit long, but could be longer.
+
+<<typedefs>>=
+
+typedef char i2_t;
+typedef char i1_t;
+
+@
+The following provides a boolean datatype lacking in C.
+
+<<typedefs>>=
+
+typedef i1_t Boolean_t;
+
+#define TRUE 1
+#define FALSE 0

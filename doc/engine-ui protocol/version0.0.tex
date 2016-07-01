@@ -1,0 +1,47 @@
+\documentclass{article}
+
+\newcommand{\cmd}[2]{\textbf{#1} 
+        \hspace{0.5cm}\parbox[t]{10cm}{#2}}
+\newcommand{\cmdr}[1]{{\em #1}}
+\newcommand{\baag}{{\em baag}}
+\newcommand{\shikaar}{{\em shikaar}}
+
+\begin{document}
+
+\title{Engine-UI protocol for BagChal}
+\author{jaH saaymi \and Suraj Adhikari}
+\maketitle
+
+\section{Basics}
+
+Two pipes are used for communication between the UI and engine. The
+first one (stdin for engine) to send commands from the UI to the
+engine. The second one (stdout for engine) to send commands from the
+engine to the UI. The communication between engine and UI takes the
+form of a series for commands in fullduplex mode, i.e. each entity can
+be both in the process of receiving and sending commands at the same
+time. Each command begins after a new line, and ends when a newline is
+received. There need not be two newlines between commands. Commands
+that are not understood are ignored.
+
+\section{Commands from the UI to the engine}
+
+\begin{description}
+\item[bagchalui1]{The command is sent by the user interface to start
+the communication. The engine need not send any commands before it
+receives this command. But the engine may send the \cmdr{ping} command
+to check whether an engine is connected; in this case, the engine will
+reply with this command. After receiving this command the engine
+should go to the mode supporting this protocol.}
+
+\item[new]{Resset the board to the standard bagchal initial
+position. Reset the number of \shikaar to 20. Set \shikaar on
+move. Associate the engine's clock with \baag and the opponent's clock
+with \shikaar. Reset the clocks and time controls with the start of a
+new game. Stop clocks.}
+
+\item[quit]{The bagchal engine should immediately exit.}
+
+\end{description}
+
+\end{document}

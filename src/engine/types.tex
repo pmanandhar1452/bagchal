@@ -1,0 +1,46 @@
+\documentclass{article}\usepackage{noweb}\pagestyle{noweb}\noweboptions{}\begin{document}\nwfilename{types.nw}\nwbegindocs{0}\nwenddocs{}\nwbegincode{1}\moddef{*}\endmoddef\nwstartdeflinemarkup\nwenddeflinemarkup% ===> this file was generated automatically by noweave --- better not edit it
+  \LA{}types.h\RA{}
+\nwendcode{}\nwbegindocs{2}\nwdocspar
+
+\texttt{types.h} defines the simple data-types used in the
+bagchal engine.
+
+\nwenddocs{}\nwbegincode{3}\moddef{types.h}\endmoddef\nwstartdeflinemarkup\nwenddeflinemarkup
+
+#ifndef bagchal_engine_types_h
+#define bagchal_engine_types_h
+
+\LA{}typedefs\RA{}
+
+#endif
+
+\nwendcode{}\nwbegindocs{4}\nwdocspar
+
+The {\Tt{}i64{\_}t\nwendquote} is a 64 bit integer. Since the actual base type is different
+for different compilers. We use a typedef for a 64 bit integer.
+
+\nwenddocs{}\nwbegincode{5}\moddef{typedefs}\endmoddef\nwstartdeflinemarkup\nwenddeflinemarkup
+
+typedef unsigned long long i64_t;
+
+\nwendcode{}\nwbegindocs{6}\nwdocspar
+
+The {\Tt{}i2{\_}t\nwendquote} is at least 2 bits long, but could be longer.
+The {\Tt{}i1{\_}t\nwendquote} is at least 1 bit long, but could be longer.
+
+\nwenddocs{}\nwbegincode{7}\moddef{typedefs}\plusendmoddef\nwstartdeflinemarkup\nwenddeflinemarkup
+
+typedef char i2_t;
+typedef char i1_t;
+
+\nwendcode{}\nwbegindocs{8}\nwdocspar
+The following provides a boolean datatype lacking in C.
+
+\nwenddocs{}\nwbegincode{9}\moddef{typedefs}\plusendmoddef\nwstartdeflinemarkup\nwenddeflinemarkup
+
+typedef i1_t Boolean_t;
+
+#define TRUE 1
+#define FALSE 0
+\nwendcode{}\end{document}
+

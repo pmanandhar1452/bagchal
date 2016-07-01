@@ -1,0 +1,62 @@
+jaH saaymi
+30 Oct 2002
+
+I have hoped to documetn the project more nicely. However due to lack
+of time and lack of enthusiasm from other members, I have to declare
+that for the time being I am the sole developper/designer in this
+project and thus, I will only keep very little documentation in the
+form of comments in the code. Hopefully the documentation can catch up
+as time passes.
+
+Yet, this log will keep important items so that the project is not
+totally a mess.
+
+I had decided that the project will have an engine part and a perhaps
+more than one UI parts. This very much follows the trend in current
+chess software. The engine-UI protocol details are yet to be decided,
+but I will probably follow the XML-Web Services paradigm, since that
+is the next hot thing; and I don't believe in reinventing wheels. The
+UI parts could later be linked with a game server architecture, to
+make the whole thing net friendly.
+
+I had decided that the whole project will be done in C [This was meant
+to be a project via which I will teach C] and since I love C, I will
+keep that, at least for the engine portion.
+
+Till now, there are the following modules: (I am building the engine
+ground up in this stage.)
+
+types.h : primitive datatypes, this module is mainly used to make the
+programs relatively compiler independent.
+
+utility.h : some utility functions. Currently this contains bit
+masking.
+
+Board.h : The bit board encapsulated. I have decided to represent the
+board as a 64 bit integer. And the functions in this module
+encapsulate this fact.
+
+move.h : transform boards into other boards, via a move; checks
+validity of moves.
+
+symmetry.h : checks symmetry of moves.
+
+current dependencies:
+
+types.h [Independent]
+utility.h [types.h]
+Board.h [types.h, utility.h]
+symmetry.h [Board.h, utility.h, types.h]
+move.h [Board.h, utility.h, types.h]
+
+I have tested all the modules to some extent. However there still
+remains a lot of tests I would like to make as a tester on move.h. As
+the creator, however I seem to be confident on the modules
+functionality and have quit doing more tests on the module for now,
+for the sake of time.
+
+The next module I plan is generator.h. This module will generate moves
+given a "current" board. It can also use symmetry.h to weed out
+redundant moves based on symmetry. It will also contain a module that
+will choose an equivalent random move given a move that can be
+attributed to symmetry.

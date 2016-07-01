@@ -1,0 +1,235 @@
+Number of Shikaar killed, left = 0, 19i
+T***T
+*****
+*****
+*****
+T*S*T
+<move type="0" x="4" y="2" dir="0"/>
+<move type="1" x="4" y="0" dir="4"/>
+Score = 0<move type="1" x="4" y="0" dir="4"/>
+Number of Shikaar killed, left = 0, 19i
+T***T
+*****
+*****
+T****
+**S*T
+Number of Shikaar killed, left = 0, 18i
+T*S*T
+*****
+*****
+T****
+**S*T
+<move type="0" x="0" y="2" dir="0"/>
+<move type="1" x="4" y="4" dir="4"/>
+Score = 0<move type="1" x="4" y="4" dir="4"/>
+Number of Shikaar killed, left = 0, 18i
+T*S*T
+*****
+*****
+T***T
+**S**
+Number of Shikaar killed, left = 0, 17i
+T*S*T
+*****
+*****
+T***T
+**S*S
+<move type="0" x="4" y="4" dir="0"/>
+<move type="1" x="3" y="4" dir="6"/>
+Score = 0<move type="1" x="3" y="4" dir="6"/>
+Number of Shikaar killed, left = 0, 17i
+T*S*T
+*****
+*****
+T**T*
+**S*S
+Number of Shikaar killed, left = 0, 16i
+T*S*T
+*****
+****S
+T**T*
+**S*S
+<move type="0" x="2" y="4" dir="0"/>
+<move type="1" x="0" y="4" dir="6"/>
+Score = 0<move type="1" x="0" y="4" dir="6"/>
+Number of Shikaar killed, left = 0, 16i
+T*ST*
+*****
+****S
+T**T*
+**S*S
+Number of Shikaar killed, left = 0, 15i
+TSST*
+*****
+****S
+T**T*
+**S*S
+<move type="0" x="0" y="1" dir="0"/>
+<move type="1" x="0" y="3" dir="2"/>
+Score = 0<move type="1" x="0" y="3" dir="2"/>
+Number of Shikaar killed, left = 0, 15i
+TSS*T
+*****
+****S
+T**T*
+**S*S
+Number of Shikaar killed, left = 0, 14i
+TSS*T
+*****
+****S
+T**T*
+S*S*S
+<move type="0" x="4" y="0" dir="0"/>
+<move type="1" x="3" y="0" dir="2"/>
+Score = 0<move type="1" x="3" y="0" dir="2"/>
+Number of Shikaar killed, left = 0, 14i
+TSS*T
+*****
+****S
+*T*T*
+S*S*S
+Number of Shikaar killed, left = 0, 13i
+TSS*T
+*****
+S***S
+*T*T*
+S*S*S
+<move type="0" x="2" y="0" dir="0"/>
+<move type="1" x="3" y="1" dir="0"/>
+Score = 0<move type="1" x="3" y="1" dir="0"/>
+Number of Shikaar killed, left = 0, 13i
+TSS*T
+*****
+S***S
+***T*
+STS*S
+Number of Shikaar killed, left = 0, 12i
+TSS*T
+*****
+S***S
+***T*
+STSSS
+<move type="0" x="4" y="3" dir="0"/>
+<move type="1" x="4" y="1" dir="4"/>
+Score = 0<move type="1" x="4" y="1" dir="4"/>
+Number of Shikaar killed, left = 0, 12i
+TSS*T
+*****
+S***S
+*T*T*
+S*SSS
+Number of Shikaar killed, left = 0, 11i
+TSS*T
+*****
+S***S
+ST*T*
+S*SSS
+<move type="0" x="3" y="0" dir="0"/>
+<move type="1" x="3" y="1" dir="4"/>
+Score = 0<move type="1" x="3" y="1" dir="4"/>
+Number of Shikaar killed, left = 0, 11i
+TSS*T
+*****
+ST**S
+S**T*
+S*SSS
+Number of Shikaar killed, left = 0, 10i
+TSS*T
+*****
+ST**S
+S**TS
+S*SSS
+<move type="0" x="3" y="4" dir="0"/>
+<move type="1" x="0" y="0" dir="1"/>
+Score = 0<move type="1" x="0" y="0" dir="1"/>
+Number of Shikaar killed, left = 0, 10i
+*SS*T
+*T***
+ST**S
+S**TS
+S*SSS
+Number of Shikaar killed, left = 0, 9i
+SSS*T
+*T***
+ST**S
+S**TS
+S*SSS
+<move type="0" x="0" y="0" dir="0"/>
+<move type="1" x="0" y="4" dir="0"/>
+Score = 0<move type="1" x="0" y="4" dir="0"/>
+Number of Shikaar killed, left = 0, 9i
+SSS**
+*T**T
+ST**S
+S**TS
+S*SSS
+Number of Shikaar killed, left = 0, 8i
+SSS*S
+*T**T
+ST**S
+S**TS
+S*SSS
+<move type="0" x="0" y="4" dir="0"/>
+<move type="1" x="1" y="1" dir="2"/>
+Score = 0<move type="1" x="1" y="1" dir="2"/>
+Number of Shikaar killed, left = 0, 8i
+SSS*S
+**T*T
+ST**S
+S**TS
+S*SSS
+Number of Shikaar killed, left = 0, 7i
+SSS*S
+**TST
+ST**S
+S**TS
+S*SSS
+<move type="0" x="1" y="3" dir="0"/>
+<move type="1" x="3" y="3" dir="4"/>
+Score = 1<move type="1" x="3" y="3" dir="4"/>
+Number of Shikaar killed, left = 0, 7i
+SSS*S
+**TST
+ST*TS
+S***S
+S*SSS
+Number of Shikaar killed, left = 0, 6i
+SSSSS
+**TST
+ST*TS
+S***S
+S*SSS
+<move type="0" x="0" y="3" dir="0"/>
+<move type="1" x="2" y="3" dir="0"/>
+Score = 1<move type="1" x="2" y="3" dir="0"/>
+Number of Shikaar killed, left = 0, 6i
+SSSSS
+**TST
+ST**S
+S**TS
+S*SSS
+Number of Shikaar killed, left = 0, 5i
+SSSSS
+**TST
+ST*SS
+S**TS
+S*SSS
+<move type="0" x="2" y="3" dir="0"/>
+<move type="1" x="3" y="3" dir="6"/>
+Score = 1<move type="1" x="3" y="3" dir="6"/>
+Number of Shikaar killed, left = 0, 5i
+SSSSS
+**TST
+ST*SS
+S*T*S
+S*SSS
+Number of Shikaar killed, left = 0, 4i
+SSSSS
+S*TST
+ST*SS
+S*T*S
+S*SSS
+<move type="0" x="1" y="0" dir="0"/>
+<move type="1" x="1" y="2" dir="6"/>
+Score = -27<move type="1" x="1" y="2" dir="6"/>
+Number of Shika

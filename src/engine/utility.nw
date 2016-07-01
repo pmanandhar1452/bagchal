@@ -1,0 +1,44 @@
+\documentclass{article}\usepackage{noweb}\pagestyle{noweb}
+\usepackage{graphicx}
+\begin{document}
+@ 
+\section{Introduction}
+This file describes and implements various utility functions that could
+be useful for all modules. This is the all purpose utiliyt module
+for small and useful miscellaneous functions.
+
+<<*>>=
+  <<utility.h>>
+
+<<utility.h>>=
+
+#ifndef bagchal_engine_utility_h
+#define bagchal_engine_utility_h
+
+<<includes>>
+
+<<function prototypes>>
+
+#endif
+
+@ [[types.h]] is included for [[i64_t]], the 64 bit integer.
+
+<<includes>>=
+
+#include "types.h"
+
+@
+\section{The [[i64_t]] mask generator}
+
+The mask generator is used to generate a mask with a 1 in the
+specified position, and 0 in other places.
+
+<<function prototypes>>=
+
+i64_t generateMask_i64_t (unsigned char position);
+
+@
+If [[position]] is not between 0 and 63, the mask contains
+all zeros.
+
+\end{document}

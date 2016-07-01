@@ -1,0 +1,16 @@
+search.c: In function `search':
+search.c:26: warning: initialization makes pointer from integer without a cast
+search.c:28: `NULL' undeclared (first use in this function)
+search.c:28: (Each undeclared identifier is reported only once
+search.c:28: for each function it appears in.)
+search.c:32: warning: passing arg 1 of `destroy_MoveList' from incompatible pointer type
+search.c:33: `b' undeclared (first use in this function)
+search.c:35: too few arguments to function `alphabeta'
+search.c: At top level:
+search.c:57: conflicting types for `alphabeta'
+search.c:22: previous declaration of `alphabeta'
+search.c: In function `alphabeta':
+search.c:58: warning: initialization makes pointer from integer without a cast
+search.c:59: `NULL' undeclared (first use in this function)
+search.c:65: warning: passing arg 1 of `destroy_MoveList' from incompatible pointer type
+search.c:70: warning: passing arg 1 of `destroy_MoveList' from incompatible pointer type
